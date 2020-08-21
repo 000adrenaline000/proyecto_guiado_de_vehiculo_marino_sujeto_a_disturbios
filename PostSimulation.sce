@@ -1,5 +1,5 @@
 nmues=100;
-time=1:n;
+time=1:nmues;
 
 xcen0=0;
 ycen0=0;
@@ -14,7 +14,7 @@ ycen4=0;
 xcen5=100;
 ycen5=20;
 
-radius=L;
+radius=2*L;
 xcir0= xcen0 + radius*cos(2*%pi*time/nmues);
 ycir0= ycen0 + radius*sin(2*%pi*time/nmues);
 
